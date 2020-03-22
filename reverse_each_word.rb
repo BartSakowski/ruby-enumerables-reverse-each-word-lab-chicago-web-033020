@@ -1,5 +1,6 @@
 def reverse_each_word(sentence1)
-  sentence1 = data.split(", ")
+  new_string = sentence1.split(", ")
+  new_string.each{ |word| puts worrd.reverse}
   
 
 

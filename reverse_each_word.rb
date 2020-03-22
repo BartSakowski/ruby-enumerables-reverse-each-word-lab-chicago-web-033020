@@ -3,4 +3,4 @@ def reverse_each_word(sentence1)
   yield(new_string)
 end
 
-reverse_each_word(sentence) { |word| word.reverse }
+reverse_each_word(sentence1) { |word| word.reverse }
